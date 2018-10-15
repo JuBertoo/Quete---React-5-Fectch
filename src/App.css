@@ -3,12 +3,12 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin  10s linear;
   height: 40vmin;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("./background.jpg");
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,28 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-bottom: 20px;
 }
+
+
+
+li {
+  list-style: none;
+}
+
+.quote {
+  color: rgb(244, 174, 24);
+  font-family: 'Rock Salt', cursive;
+  font-size : 18px;
+}
+.character {
+  color: black;
+  font-family: 'Rock Salt', cursive;
+  font-size : 20px;
+  
+}
+
+
 
 .App-link {
   color: #61dafb;
@@ -24,9 +45,11 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: scale(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: scale(1);
   }
 }
+
+
